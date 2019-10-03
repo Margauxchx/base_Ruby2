@@ -1,7 +1,7 @@
 def perform (psw3)
-    puts "Defini ton nouveau mot de passe : "
+    puts "Definis ton nouveau mot de passe : "
     psw = gets.chomp.to_s
-    puts "Saisi ton mot de passe : "
+    puts "Saisis ton mot de passe : "
     print "> "
     psw2 = gets.chomp.to_s
     
@@ -15,3 +15,5 @@ def perform (psw3)
 end
 
 perform ()
+
+# Faire une boucle ou il redemande le mdp jusqu'à réussite
